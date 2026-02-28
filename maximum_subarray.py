@@ -12,5 +12,5 @@ def maxsubArray(nums:list[int]):
     return maxsub
 
 print(maxsubArray([-2,-3,4,-1,-2,1,5,-3]))
-      
+
 

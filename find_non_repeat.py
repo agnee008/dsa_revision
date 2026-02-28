@@ -22,3 +22,18 @@ def nonRepeatChar(nums:list[int]):
 
 nums = [4, 5, 4, 5, 3, 4, 5]
 print(nonRepeatChar(nums)) 
+
+def findNonRepeatIndex(nums: list[int]) -> int:
+    ht = {}
+    
+    for index, value in enumerate(nums):
+        if value in ht:
+            ht[value][0] += 1
+        else:
+            ht[value] = [1, index]
+    
+    for value, (count, index) in ht.items():
+        if count == 1:
+            return index
+    
+    return -1
