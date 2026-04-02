@@ -1,5 +1,5 @@
 """
-Your task is to implement a simplified inventory tracking
+Your task is to implement simplified inventory tracking
 system for a large retail store.
 You are given a transaction log, where each log item corresponds to one of three transaction types: supply, sell or return. Log items are provided in the following format
 
