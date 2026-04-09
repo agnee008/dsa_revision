@@ -1,6 +1,6 @@
 
 """
-Here, each element in the result array b is the sum of its neighboring elements plus itself:
+Here, each one of element in the result array b is the sum of its neighboring elements plus itself:
 """
 def solution(a):
     b = [0] * len(a)
